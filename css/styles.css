@@ -866,8 +866,7 @@ input {
   fill: var(--headers-color);
 }
 
-.modform-input:hover .input-icon,
-.modform-input:focus .input-icon {
+.modform-input:focus + .input-icon {
   fill: var(--logo-button-color);
 }
 
@@ -910,7 +909,7 @@ input {
   margin-right: 8px;
 }
 
-.checkbox-input:checked .span-privacy {
+.checkbox-input:checked + .checkbox-label .span-privacy {
   background-color: var(--button-hover-color);
   border: none;
   fill: var(--footer-color);
