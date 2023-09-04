@@ -1,15 +1,12 @@
-/* Media */
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 426px;
-  }
-}
-
+/* TABLETS */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
+  /* advanced */
   .advanced-container {
     gap: 72px 24px;
   }
@@ -21,13 +18,34 @@
   .advanced-title {
     text-align: left;
   }
+
+  /* Our team */
+
+  .team-container {
+    padding: 0 92px;
+    gap: 64px 24px;
+  }
+
+  /* Customers */
+  .custom-container {
+    gap: 72px 24px;
+  }
+
+  .custom-link {
+    width: 168px;
+  }
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
+  /* advanced */
   .adv-li {
     width: calc((100% - 72px) / 4);
   }
@@ -50,7 +68,34 @@
     padding: 120px 0;
   }
 
+  /* What are we doing */
   .doing {
-    visibility: visible;
+    display: block;
+  }
+
+  /* Our Team */
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-container {
+    flex-wrap: nowrap;
+    margin: none;
+    gap: 24px;
+    width: calc((100% -72px) / 4);
+  }
+
+  /* Customers*/
+  .customers {
+    padding: 120px 0;
+  }
+
+  .custom-container {
+    flex-wrap: nowrap;
+    gap: 0 24px;
+  }
+
+  .custom-link {
+    width: 168px;
   }
 }
