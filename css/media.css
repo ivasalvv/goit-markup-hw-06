@@ -22,8 +22,13 @@
   /* Our team */
 
   .team-container {
+    width: 100%;
     padding: 0 92px;
     gap: 64px 24px;
+  }
+
+  .people-li {
+    width: calc((100% - 24px) / 2);
   }
 
   /* Customers */
@@ -80,9 +85,7 @@
 
   .team-container {
     flex-wrap: nowrap;
-    margin: none;
     gap: 24px;
-    width: calc((100% -72px) / 4);
   }
 
   /* Customers*/
