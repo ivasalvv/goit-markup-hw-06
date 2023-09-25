@@ -353,13 +353,13 @@ input {
 .hero {
   color: var(--background-color);
   background-color: var(--headers-color);
-  padding-bottom: 188px;
-  padding-top: 188px;
+  padding-bottom: 112px;
+  padding-top: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero1.jpg);
+    url(../images/hero/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -379,7 +379,7 @@ input {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
-  margin-top: 48px;
+  margin-top: 72px;
   border-radius: 4px;
   border: 0;
   min-width: 169px;
@@ -393,12 +393,12 @@ input {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 496px;
-  height: 120px;
+  max-width: 320px;
+  height: 80px;
   margin: auto;
 }
 /* Advanced section*/
