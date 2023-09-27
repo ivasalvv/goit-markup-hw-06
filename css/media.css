@@ -1,5 +1,5 @@
 /* MOBILES */
-@media only screen and (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .header-list {
     display: none;
   }
@@ -9,7 +9,17 @@
   }
 
   .site-title {
-    padding-bottom: 22px;
+    margin-bottom: 16px;
+  }
+
+  .subscribe-par {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 427.98px) {
+  .subscribe-input {
+    width: 290px;
   }
 }
 
@@ -25,10 +35,29 @@
   }
 }
 /* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 1157.9px) {
+  .footer-net {
+    align-items: baseline;
+    margin: 0;
+  }
+
+  .subscribe-container {
+    align-items: flex-start;
+    margin: 0 108px 0 auto;
+  }
+
+  .team-container {
+    width: auto;
+    max-width: 584px;
+    padding: 0 16px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
+
   .container {
     max-width: 768px;
     padding-left: 16px;
@@ -52,6 +81,10 @@
 
   .header-logo {
     margin-right: 120px;
+  }
+
+  .header .contact-link {
+    padding: 0;
   }
 
   /* Hero section */
@@ -90,8 +123,6 @@
   /* Our team */
 
   .team-container {
-    width: 100%;
-    padding: 0 92px;
     gap: 64px 24px;
   }
 
@@ -127,6 +158,10 @@
   .footer-net {
     align-items: baseline;
     margin: 0;
+  }
+
+  .networks-title {
+    text-align: initial;
   }
 
   .subscribe-form {
@@ -207,10 +242,6 @@
     width: calc((100% - 72px) / 4);
   }
 
-  .adv-icon-container {
-    display: block;
-  }
-
   .advanced-title {
     font-size: 20px;
     font-weight: 500;
@@ -263,7 +294,6 @@
 
   .footer-title {
     margin-bottom: 16px;
-    padding-right: 120px;
   }
 
   .footer-main-container {
@@ -280,6 +310,7 @@
 
   .footer-net {
     margin-right: 80px;
+    display: block;
   }
 
   .subscribe-container {
@@ -306,5 +337,11 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/retina/background/hero-desktop@2x.jpg);
+  }
+}
+
+@media screen and (max-width: 1157.9px) {
+  .adv-icon-container {
+    display: none;
   }
 }
