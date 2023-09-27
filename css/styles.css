@@ -89,7 +89,7 @@ input {
 }
 
 .header a {
-  padding: 24px 0;
+  padding: 24px 0 22px 0;
 }
 
 .site-title {
@@ -276,7 +276,6 @@ input {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--customers-color);
 }
 
 /* What are we doing*/

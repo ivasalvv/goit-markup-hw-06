@@ -8,18 +8,50 @@
     display: none;
   }
 
-  .site-title {
-    margin-bottom: 16px;
-  }
-
   .subscribe-par {
     text-align: center;
+  }
+
+  .modal {
+    width: 392px;
+  }
+
+  .footer-title {
+    margin-bottom: 16px;
   }
 }
 
 @media screen and (max-width: 427.98px) {
   .subscribe-input {
     width: 290px;
+  }
+
+  .mobile-phone {
+    font-size: 24px;
+  }
+
+  .mobile-email {
+    font-size: 14px;
+  }
+
+  .mobile-menu-socials {
+    gap: 32px;
+  }
+
+  .menu-container {
+    padding-left: 24px;
+  }
+
+  .mobile-menu-link {
+    font-size: 24px;
+  }
+
+  .modal {
+    width: 296px;
+  }
+
+  .checkbox-label {
+    line-height: 1.5;
   }
 }
 
@@ -85,6 +117,10 @@
 
   .header .contact-link {
     padding: 0;
+  }
+
+  .header a {
+    padding: 24px 0;
   }
 
   /* Hero section */
@@ -270,6 +306,11 @@
     flex-wrap: nowrap;
     gap: 24px;
     padding: 0;
+    width: 100%;
+  }
+
+  .people-li {
+    width: calc((100% - 72px) / 4);
   }
 
   /* Customers*/
